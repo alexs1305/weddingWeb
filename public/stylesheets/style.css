@@ -1,0 +1,104 @@
+body {
+  background-image: -webkit--webkit-radial-gradient(center, #aa98a9, #795678);
+  background-image: -webkit--moz-radial-gradient(center, #aa98a9, #795678);
+  background-image: -webkit--o-radial-gradient(center, #aa98a9, #795678);
+  background-image: -webkit--ms-radial-gradient(center, #aa98a9, #795678);
+  background-image: -webkit-radial-gradient(center, #aa98a9, #795678);
+  background-image: -moz--webkit-radial-gradient(center, #aa98a9, #795678);
+  background-image: -moz--moz-radial-gradient(center, #aa98a9, #795678);
+  background-image: -moz--o-radial-gradient(center, #aa98a9, #795678);
+  background-image: -moz--ms-radial-gradient(center, #aa98a9, #795678);
+  background-image: -moz-radial-gradient(center, #aa98a9, #795678);
+  background-image: -webkit-radial-gradient(center, #aa98a9, #795678);
+  background-image: -moz-radial-gradient(center, #aa98a9, #795678);
+  background-image: -o-radial-gradient(center, #aa98a9, #795678);
+  background-image: -ms-radial-gradient(center, #aa98a9, #795678);
+  background-image: radial-gradient(center, #aa98a9, #795678);
+  text-align: center;
+  color: #fff;
+  min-height: 700px;
+  font-family: "Comic Sans MS", cursive, sans-sherif;
+}
+.header {
+  text-align: center;
+  padding: 10px auto 10px;
+}
+.main-content {
+  min-height: 300px;
+  min-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.container {
+  min-width: 500px;
+  min-height: 300px;
+  float: left;
+  background-image: -webkit--webkit-radial-gradient(center, #999, alpha);
+  background-image: -webkit--moz-radial-gradient(center, #999, alpha);
+  background-image: -webkit--o-radial-gradient(center, #999, alpha);
+  background-image: -webkit--ms-radial-gradient(center, #999, alpha);
+  background-image: -webkit-radial-gradient(center, #999, alpha);
+  background-image: -moz--webkit-radial-gradient(center, #999, alpha);
+  background-image: -moz--moz-radial-gradient(center, #999, alpha);
+  background-image: -moz--o-radial-gradient(center, #999, alpha);
+  background-image: -moz--ms-radial-gradient(center, #999, alpha);
+  background-image: -moz-radial-gradient(center, #999, alpha);
+  background-image: -webkit-radial-gradient(center, #999, alpha);
+  background-image: -moz-radial-gradient(center, #999, alpha);
+  background-image: -o-radial-gradient(center, #999, alpha);
+  background-image: -ms-radial-gradient(center, #999, alpha);
+  background-image: radial-gradient(center, #999, alpha);
+  overflow: hidden;
+  max-width: 1000px;
+}
+.container p {
+  margin-bottom: 2px;
+}
+.sidebar {
+  float: left;
+  width: 200px;
+  height: 300px;
+  background-color: #b39eb5;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.widget {
+  padding-right: 0px;
+}
+.widget ul:hover {
+  color: #c0c;
+  background-image: -webkit--webkit-radial-gradient(center, #f6c, #f6f);
+  background-image: -webkit--moz-radial-gradient(center, #f6c, #f6f);
+  background-image: -webkit--o-radial-gradient(center, #f6c, #f6f);
+  background-image: -webkit--ms-radial-gradient(center, #f6c, #f6f);
+  background-image: -webkit-radial-gradient(center, #f6c, #f6f);
+  background-image: -moz--webkit-radial-gradient(center, #f6c, #f6f);
+  background-image: -moz--moz-radial-gradient(center, #f6c, #f6f);
+  background-image: -moz--o-radial-gradient(center, #f6c, #f6f);
+  background-image: -moz--ms-radial-gradient(center, #f6c, #f6f);
+  background-image: -moz-radial-gradient(center, #f6c, #f6f);
+  background-image: -webkit-radial-gradient(center, #f6c, #f6f);
+  background-image: -moz-radial-gradient(center, #f6c, #f6f);
+  background-image: -o-radial-gradient(center, #f6c, #f6f);
+  background-image: -ms-radial-gradient(center, #f6c, #f6f);
+  background-image: radial-gradient(center, #f6c, #f6f);
+}
+.widget ul a {
+  padding: 10px 50px 10px;
+  display: inline-block;
+}
+.thumbs img {
+  height: 100px;
+  width: 100px;
+  margin: 4px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  image-rendering: pixelated;
+}
+.footer {
+  position: absolute;
+  margin-top: 10px;
+  width: auto;
+  bottom: 0px;
+}

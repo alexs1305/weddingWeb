@@ -1,0 +1,19 @@
+doctype
+html
+  head
+    title #{title} - My Site
+    script(language='JavaScript' type='text/javascript' src='/jquery.min.js')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    block headadd
+  body
+    .header
+      h1 My Site
+       
+    .main-content     
+       .sidebar
+         block sidebar
+       .container
+         block content	
+    .footer
+   
+    block ext

@@ -1,0 +1,8 @@
+extend layout
+block content
+  form(action='postPic', method='post', enctype='multipart/form-data')
+    input(id='picture', type='file', value='', name='picture')
+  
+block sidebar
+    p
+     |Sidebar to add to

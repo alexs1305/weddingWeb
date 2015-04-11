@@ -1,0 +1,22 @@
+extend layout
+block headadd
+  title Upload Pictures
+  link(href="/stylesheets/upload.css", rel="stylesheet")
+block content
+  form(id="upload", method="post", action="upload.php", enctype="multipart/form-data")
+    div(id="drop") Drop Here
+      a Browse
+      input(type="file", name="upl", multiple)
+    ul
+  
+block sidebar
+    p
+     |Uploading Area
+    Widget
+block ext
+  script(src="jquery.min.js")
+  script(src="assets/js/jquery.knob.js")
+  script(src="assets/js/jquery.ui.widget.js")
+  script(src="assets/js/jquery.iframe-transport.js")
+  script(src="assets/js/jquery.fileupload.js")
+  script(src="assets/js/script.js")
